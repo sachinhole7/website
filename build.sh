@@ -1,13 +1,12 @@
 #!/bin/bash 
 
-echo "------------------------------------"
-ls -al
+echo -e " = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \n"
 
-cat README.md
+#git config --global user.name "sachinhole7"
+#git config --global user.email "sachinhole.xyz@gmail.com"
 
-git config --global user.name "sachinhole7"
-git config --global user.email "sachinhole.xyz@gmail.com"
+#git add -A
+#git commit -am ":modified by build.sh"
+#git push
 
-git add -A
-git commit -am "$(date)"
-git push
+echo -e " = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \n"
