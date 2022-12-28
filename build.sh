@@ -3,6 +3,6 @@
 echo "------------------------------------"
 ls -al
 
-whoiam
+whoami
 
 echo "# This is my Blog." >> README.md
