@@ -12,5 +12,5 @@ jobs:
     - name: Run Built Script
       run: |
          chmod +x build.sh
-         ./build
+         ./build.sh
       shell: bash
